@@ -160,6 +160,29 @@ export const constantRoutes = [
     ]
   },
 
+  {
+    path: '/class',
+    component: Layout,
+    // meta: { title: '班级管理', icon: 'el-icon-s-management', roles: ['Teacher'] },
+    meta: { title: '班级管理', icon: 'el-icon-s-management'},
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/class/index'),
+        name: 'ClassList',
+        meta: { title: '我的班级', icon: 'el-icon-notebook-2' }
+      },
+      {
+        path: 'class-detail/:classId',
+        component: () => import('@/views/class/detail'),
+        name: 'ClassDetail',
+        props: true,
+        // hidden: true,
+        meta: { title: '班级详情', activeMenu: '/class/list' }
+      }
+    ]
+  },
+
   // 404 page must be placed at the end !!!
   { path: '*', redirect: '/404', hidden: true }
 ]

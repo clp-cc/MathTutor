@@ -11,7 +11,12 @@
           <i class="el-icon-caret-bottom" />
         </div>
         <el-dropdown-menu slot="dropdown" class="user-dropdown">
-          <router-link to="/">
+          <router-link to="/class/index">
+            <el-dropdown-item>
+              我的班级
+            </el-dropdown-item>
+          </router-link>
+          <router-link to="/class/index">
             <el-dropdown-item>
               Home
             </el-dropdown-item>
