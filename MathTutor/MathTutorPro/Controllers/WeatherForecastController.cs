@@ -29,5 +29,13 @@ namespace MathTutorPro.Controllers
             })
             .ToArray();
         }
+
+
+        [HttpPost(Name = "GetHello")]
+        public String PostHello()
+        {
+            return "Hello World!";
+        }
+
     }
 }

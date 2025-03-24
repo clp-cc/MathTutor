@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathTutorPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d46fe176d27db6756b16456c43cebdd203fdda30")]
 [assembly: System.Reflection.AssemblyProductAttribute("MathTutorPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathTutorPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
